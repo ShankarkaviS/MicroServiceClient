@@ -31,7 +31,6 @@ public class ClientServiceImpl implements ClientServices {
 	}
 	
 	@Override
-	@PostConstruct
 	public Product createProduct(Product product) {
 		
 		String url1="http://localhost:7118/createProduct";

@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.hcl.client.service.ClientServices"})
+@ComponentScan(basePackages = {"com.hcl.client.service"})
 public class MicroServiceClientApplication {
 
 	public static void main(String[] args) {
